@@ -545,11 +545,10 @@
     var formCard = document.querySelector('.form-card');
     formCard.innerHTML =
       '<div class="success-state">' +
-        '<div class="success-mark">✓</div>' +
-        '<div class="success-title">You\\'re on the list.</div>' +
+        '<div class="success-mark">&#10003;</div>' +
+        '<div class="success-title">You&rsquo;re on the list.</div>' +
         '<div class="success-sub">Our team will be in touch within 48 hours.</div>' +
       '</div>';
-    // Scroll into view in case the form is below the fold on small screens
     formCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
   }
 
